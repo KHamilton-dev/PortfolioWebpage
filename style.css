@@ -6,6 +6,10 @@ header, main {
   a, h1, h2, h3 {
     text-align: center;
   }
+
+  ul, ol, p {
+      text-align: left;
+  }
   
   header {
       background-color: rgb(2, 29, 0);
@@ -43,18 +47,12 @@ header, main {
     margin: 10px;
   }
   
-  ul {
-    text-align: left;
-  }
-  
   ol {
-    text-align: left;
     padding-bottom: 10px;
   }
   
   p {
     margin-left: 20px;
-    text-align: left;
   }
   
   a {
