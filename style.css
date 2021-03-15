@@ -1,38 +1,39 @@
-header, main {
-    opacity: 0.9;
-    border-radius: 20px;
-  }
-  
   a, h1, h2, h3 {
     text-align: center;
   }
 
+  /* Article */
   ul, ol, p {
-      text-align: left;
+    text-align: left;
+  }
+
+  /* Box Formatting */
+  header, main {
+    background-color: rgb(2, 29, 0);
+    color: white;
+    opacity: 0.9;
+    border-radius: 20px;
   }
   
   header {
-      background-color: rgb(2, 29, 0);
-      color: white;
-      margin-top: 20px;
-      margin-bottom: 5px;
-      margin-left: 500px;
-      margin-right: 500px;
-      padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
   }
   
   h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
+
+  /* Background Image */
   body {
-      background-image: url('images/trees.jpg');
+    background-image: url('images/trees.jpg');
   }
   
   main {
-    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(2, 29, 0);
     margin: 10px 300px;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -57,9 +58,10 @@ header, main {
   
   a {
     font-size: 30px;
+    text-align: center !important;
   }
   
   a:link {color: white;}
   a:visited {color:white;}
   a:hover {color: grey;}
-  a:active { color: rgb(2, 0, 146);}
+  a:active { color: blue;}
